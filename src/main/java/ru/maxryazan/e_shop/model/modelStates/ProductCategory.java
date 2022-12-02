@@ -1,2 +1,8 @@
-package ru.maxryazan.e_shop.model.modelStates;public class ProductCategory {
+package ru.maxryazan.e_shop.model.modelStates;
+
+public enum ProductCategory {
+    MAN_BAG,
+    WOMAN_BAG,
+    WALLET,
+    SUITCASE
 }
