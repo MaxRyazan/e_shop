@@ -4,5 +4,7 @@ public enum ProductCategory {
     MAN_BAG,
     WOMAN_BAG,
     WALLET,
-    SUITCASE
+    SUITCASE,
+    UMBRELLA,
+    BELT
 }

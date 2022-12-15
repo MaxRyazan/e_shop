@@ -67,4 +67,10 @@ public class Controller {
     public ResponseEntity<List<Product>> showAllAvailableProductsByCategory(@PathVariable String category){
         return new ResponseEntity<>(productService.showAllAvailableProductsByCategory(category), HttpStatus.OK);
     }
+
+
+    @GetMapping("/product/discount")
+    public ResponseEntity<List<Product>> showAllDiscountProducts(){
+        return new ResponseEntity<>(productService.showAllDiscountProducts(), HttpStatus.OK);
+    }
 }
